@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 # Configuración de conexión
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name('credenciales.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('perron2-f307892530b3.json', scope)
 client = gspread.authorize(creds)
 spreadsheet = client.open_by_key('19Rd4PzPrrzSZ8CXb98VDwdhys9r-owybmdtfbdfOx2U')
 
