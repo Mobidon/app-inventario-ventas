@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "perron2",
+  "private_key_id": "f307892530b38ce9d9798a5e86c13e5935fac7b1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7DoYdohszW0g+\nofUIdA7uNP1EuLlXz0zswXSpMHRZiDAglA1QJZcqhCKoiDplj2yzObuJ7paxoLKD\nY4dK264YdZkzA7JuUUiLeKAdrtzadHMkqjzaA2qumfz9KL6baOu1UhNvbVVxJiyb\nwXfUN7VkyR/b6yvxHXM25R3B20FRk9uivI8uHhROy3SJ7Si4OFij3KDE5YLtHPYX\nNARfaE+si1DF4IAEZ5wrcPdpt67ebTKrpEvCe8+Rc3KnPaRHHYvrA9kHtUQwcPwZ\nWTaM6yHMPyh/KTwxDb8WucLbByG74Jlhlszdt/erWvwohrJveWllhIedH36vpNY8\nkpFhcK37AgMBAAECggEADX3rsIF7wsWHvXTDDrwIQ6gwyF8mhy3dl4oQlw92pOqM\nxhzHpQtBDwD+2vcQdzjUF01HuJgr6F314kIwhPa5ZOw+g451tT1JpT2rFtkA9wTF\nNVTOFM+AR122ALCKpvz3W1mzKytQqVuehhF7SiRGgiF7mcopnjeIkuINtmjRGkgX\nS4TBTUz2g+pJt9Xb/gYLCK11AKOAEGKIRalLq5XGhRDfkkx8oQ6uQ6KLjW8HG8Ip\nGosJeXGUOCKPui8zY+F4eh2gdcDCIyM5QrDYfQSFNOY4DRcnPJVx7HFGPog/UYX7\nnpxmNbPqb5hSxW7Kb0N9cuWIGo4joHrH3fIMvV/u8QKBgQDkiNXowjjxqkpo2fLN\n80om3sqgPEk5V6j4GwCDNERBY9mmhVBJmvTK79A163CaCVN85bHFPOa+4vL5Nuer\nQKPL9SDJYXD0LlqbzqxGM1igar3Azgk3VhjdfTt8nvL1rkhaB7NyRj64psyxLBWr\nEYqTHAc1tvA+gEh3wS2ohMgXyQKBgQDRiZHndgIQq0jL4kItES55wnG2+7iSz2xE\nKX/0zNRUwDJ4T2YwzeSVbTEgz4ktfES32OUKGOLoMA6k1RJajr3333XZeNE8I1/Y\neHyRJjsjV3ahaA5mddzcu0bHyeOn0G9nxjN2NMr2JiVs2PAyT3ok9MoBlGT27meP\nkCQL7sPBowKBgFVka8lVCUIDh1o2VetuhL6RcNT+sb2ja5eJP1/HH9nvHVyDY8Sd\nCerqQLplBuYHphJ9ITe50d5xnqhQQ7BRruJ+7YlRx4r15xVg3C4+8Va/i7eHRRpQ\nKWpZaOjf25jBTneVeQ+x/62vZbyt5ErPeyAM0QTZHlu8Q1e77vuQ4dNBAoGATAsJ\nEF8bUMFYoeVy7rgVjcqrSiUATwdH21TUQxsy068MoezuwTd3hWMjOS0YM5GtvqrQ\nNGHjty/5oIhTKNo0xwgp1Mqr5I9R8VWIn4SoYaMUQm9pCnYruU+d2FPEctqKE7cy\nZeuy3LHrUx1HznpZcaAEz53zJkpO+yLscggsstECgYA/w9Vzeg0G/l09/tM8psVO\nnyNFHJV3uPMZR/maAH0orHFtNfRt781X203w2gguELXD+DOCQe50zUi3BrTZAaQd\n3jSjM6W7FRnoJvH+tO006PDNK7+SJy4PyAIADxhqLVrCEVwZp4PDYF8lmLA+DWiu\nnfcDdRkyjA8QcNtrEcm5TA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "drives@perron2.iam.gserviceaccount.com",
+  "client_id": "118313225967845814103",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/drives%40perron2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
