@@ -1,4 +1,3 @@
-
 import streamlit as st
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -72,10 +71,20 @@ def registrar_ventas_pelucheras(maquina, vendidos, ganancias):
 
 def registrar_mas_maquinas(maquina, ganancias):
     hoja = spreadsheet.worksheet("Más máquinas")
-    precios = {"Pelotas pequeñas (Pajaro)": 5, "Pelotas grandes (Pri)": 10, "Pelotas pequeñas (Oasis)": 5,
-               "Carrito (Oasis)", "Carrusel (Oasis)", "Pelotitas mix (Victor)"]}
-    costos = {"Pelotas pequeñas (Pajaro)": 1.127, "Pelotas grandes (Pri)": 5.29,
-              "Pelotas pequeñas (Oasis)": 1.127, "Pelotitas mix (Victor)": 1.5}
+    precios = {
+        "Pelotas pequeñas (Pajaro)": 5,
+        "Pelotas grandes (Pri)": 10,
+        "Pelotas pequeñas (Oasis)": 5,
+        "Carrito (Oasis)": 5,
+        "Carrusel (Oasis)": 10,
+        "Pelotitas mix (Victor)": 5
+    }
+    costos = {
+        "Pelotas pequeñas (Pajaro)": 1.127,
+        "Pelotas grandes (Pri)": 5.29,
+        "Pelotas pequeñas (Oasis)": 1.127,
+        "Pelotitas mix (Victor)": 1.5
+    }
     vendidos = ganancias / precios[maquina]
     if maquina in ["Carrito (Oasis)", "Carrusel (Oasis)"]:
         fila = [fecha_actual, maquina, ganancias, vendidos, 0, ganancias, 0]
